@@ -5,7 +5,7 @@ import seaborn as sns
 import zipfile
 
 # Path ke file ZIP 
-zip_path = 'C:/Users/HP/Bike-sharing-dataset.zip'
+zip_path = 'https://github.com/ETA-03/Analisa-Data-dengan-Python/raw/refs/heads/main/Bike-sharing-dataset.zip'
 # Ekstraksi ZIP
 with zipfile.ZipFile(zip_path, 'r') as zip_ref:
     zip_ref.extractall('/content/dataset')
